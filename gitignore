@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Env
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/*.db
+*.sqbpro
+
+# Sphinx generated docs
+docs/sphinx/_build/
