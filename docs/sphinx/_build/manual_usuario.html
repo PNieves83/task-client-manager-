@@ -1,0 +1,434 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📘 Manual de Usuario — Task &amp; Client Manager &mdash; Task &amp; Client Manager 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=6f06183f" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=f2a433a1"></script>
+      <script src="_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Referencia de la API" href="api.html" />
+    <link rel="prev" title="Bienvenido a Task &amp; Client Manager" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Task & Client Manager
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contenido</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">📘 Manual de Usuario — Task &amp; Client Manager</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#indice">Índice</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#inicio-de-la-aplicacion">1. Inicio de la aplicación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#panel-de-clientes">2. Panel de Clientes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#agregar-cliente">2.1 Agregar cliente</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#editar-cliente">2.2 Editar cliente</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eliminar-cliente">2.3 Eliminar cliente</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#buscar-cliente">2.4 Buscar cliente</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#seleccionar-cliente">2.5 Seleccionar cliente</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#panel-de-tareas">3. Panel de Tareas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#agregar-tarea">3.1 Agregar tarea</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#editar-tarea">3.2 Editar tarea</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eliminar-tarea">3.3 Eliminar tarea</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#panel-de-reuniones">4. Panel de Reuniones</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#agregar-reunion">4.1 Agregar reunión</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#editar-reunion">4.2 Editar reunión</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eliminar-reunion">4.3 Eliminar reunión</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#colores-segun-estado-de-pago">4.4 Colores según estado de pago</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#calendario-emergente">5. Calendario emergente</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ordenamiento-de-tablas">6. Ordenamiento de tablas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tooltips">7. Tooltips</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#solucion-de-problemas">8. Solución de problemas</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">Referencia de la API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="diagrams.html">Diagramas de arquitectura</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Task & Client Manager</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">📘 Manual de Usuario — Task &amp; Client Manager</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/manual_usuario.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="manual-de-usuario-task-client-manager">
+<h1>📘 Manual de Usuario — Task &amp; Client Manager<a class="headerlink" href="#manual-de-usuario-task-client-manager" title="Link to this heading"></a></h1>
+<p>Sistema de escritorio para la gestión de clientes, tareas y reuniones.</p>
+<hr class="docutils" />
+<section id="indice">
+<h2>Índice<a class="headerlink" href="#indice" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p><a class="reference internal" href="#1-inicio-de-la-aplicaci%C3%B3n"><span class="xref myst">Inicio de la aplicación</span></a></p></li>
+<li><p><a class="reference internal" href="#2-panel-de-clientes"><span class="xref myst">Panel de Clientes</span></a></p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#21-agregar-cliente"><span class="xref myst">Agregar cliente</span></a></p></li>
+<li><p><a class="reference internal" href="#22-editar-cliente"><span class="xref myst">Editar cliente</span></a></p></li>
+<li><p><a class="reference internal" href="#23-eliminar-cliente"><span class="xref myst">Eliminar cliente</span></a></p></li>
+<li><p><a class="reference internal" href="#24-buscar-cliente"><span class="xref myst">Buscar cliente</span></a></p></li>
+<li><p><a class="reference internal" href="#25-seleccionar-cliente"><span class="xref myst">Seleccionar cliente</span></a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#3-panel-de-tareas"><span class="xref myst">Panel de Tareas</span></a></p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#31-agregar-tarea"><span class="xref myst">Agregar tarea</span></a></p></li>
+<li><p><a class="reference internal" href="#32-editar-tarea"><span class="xref myst">Editar tarea</span></a></p></li>
+<li><p><a class="reference internal" href="#33-eliminar-tarea"><span class="xref myst">Eliminar tarea</span></a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#4-panel-de-reuniones"><span class="xref myst">Panel de Reuniones</span></a></p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#41-agregar-reuni%C3%B3n"><span class="xref myst">Agregar reunión</span></a></p></li>
+<li><p><a class="reference internal" href="#42-editar-reuni%C3%B3n"><span class="xref myst">Editar reunión</span></a></p></li>
+<li><p><a class="reference internal" href="#43-eliminar-reuni%C3%B3n"><span class="xref myst">Eliminar reunión</span></a></p></li>
+<li><p><a class="reference internal" href="#44-colores-seg%C3%BAn-estado-de-pago"><span class="xref myst">Colores según estado de pago</span></a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#5-calendario-emergente"><span class="xref myst">Calendario emergente</span></a></p></li>
+<li><p><a class="reference internal" href="#6-ordenamiento-de-tablas"><span class="xref myst">Ordenamiento de tablas</span></a></p></li>
+<li><p><a class="reference internal" href="#7-tooltips"><span class="xref myst">Tooltips</span></a></p></li>
+<li><p><a class="reference internal" href="#8-soluci%C3%B3n-de-problemas"><span class="xref myst">Solución de problemas</span></a></p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="inicio-de-la-aplicacion">
+<h2>1. Inicio de la aplicación<a class="headerlink" href="#inicio-de-la-aplicacion" title="Link to this heading"></a></h2>
+<p>Ejecutar en la terminal:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>main.py
+</pre></div>
+</div>
+<p>La aplicación se abre maximizada con tres paneles principales:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>┌──────────────────────────────────────────────────┐
+│                   CLIENTES                        │
+│  [Formulario]  [Botones: Add, Edit, Delete...]   │
+│  [Tabla de clientes]                              │
+├──────────────────────┬───────────────────────────┤
+│    CLIENT TASKS      │    CLIENT MEETINGS         │
+│  [Formulario]        │  [Formulario]              │
+│  [Tabla de tareas]   │  [Tabla de reuniones]      │
+└──────────────────────┴───────────────────────────┘
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="panel-de-clientes">
+<h2>2. Panel de Clientes<a class="headerlink" href="#panel-de-clientes" title="Link to this heading"></a></h2>
+<section id="agregar-cliente">
+<h3>2.1 Agregar cliente<a class="headerlink" href="#agregar-cliente" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Completar los campos del formulario:</p>
+<ul class="simple">
+<li><p><strong>First Name</strong> (obligatorio — solo letras y espacios)</p></li>
+<li><p><strong>Last Name</strong> (obligatorio — solo letras y espacios)</p></li>
+<li><p><strong>Email</strong> (obligatorio — formato email válido)</p></li>
+<li><p><strong>Phone</strong> (obligatorio — 6 a 20 dígitos, acepta +, -, (), espacios)</p></li>
+<li><p><strong>Company</strong> (opcional)</p></li>
+<li><p><strong>Category</strong> (seleccionar: Client, Lead, VIP, Active, Inactive, Prospect)</p></li>
+<li><p><strong>Source</strong> (seleccionar: Website, Referral, Instagram, LinkedIn, Email, Event, Other)</p></li>
+<li><p><strong>Preferred</strong> (seleccionar método de contacto preferido)</p></li>
+</ul>
+</li>
+<li><p>Hacer clic en <strong>“Add Client”</strong></p></li>
+<li><p>Si la validación es correcta, el cliente se agrega y se selecciona automáticamente en la tabla</p></li>
+</ol>
+</section>
+<section id="editar-cliente">
+<h3>2.2 Editar cliente<a class="headerlink" href="#editar-cliente" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Seleccionar un cliente en la tabla</p></li>
+<li><p>Hacer clic en <strong>“Edit Client”</strong></p></li>
+<li><p>En la ventana emergente, modificar los campos necesarios</p></li>
+<li><p>Hacer clic en <strong>“Save”</strong> para guardar o <strong>“Cancel”</strong> para descartar</p></li>
+</ol>
+</section>
+<section id="eliminar-cliente">
+<h3>2.3 Eliminar cliente<a class="headerlink" href="#eliminar-cliente" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Seleccionar un cliente en la tabla</p></li>
+<li><p>Hacer clic en <strong>“Delete Client”</strong></p></li>
+<li><p>Confirmar la eliminación en el cuadro de diálogo</p></li>
+<li><p><strong>Importante:</strong> se eliminan también todas sus tareas y reuniones asociadas</p></li>
+</ol>
+</section>
+<section id="buscar-cliente">
+<h3>2.4 Buscar cliente<a class="headerlink" href="#buscar-cliente" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Escribir texto en el campo <strong>“Search”</strong></p></li>
+<li><p>Presionar <strong>Enter</strong> o hacer clic en <strong>“Search”</strong></p></li>
+<li><p>La tabla se filtra mostrando solo los clientes que coinciden en cualquier campo</p></li>
+<li><p>Para volver a ver todos, borrar el texto y presionar <strong>Enter</strong> o <strong>“Search”</strong></p></li>
+</ol>
+</section>
+<section id="seleccionar-cliente">
+<h3>2.5 Seleccionar cliente<a class="headerlink" href="#seleccionar-cliente" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Hacer clic en cualquier fila de la tabla de clientes</p></li>
+<li><p>O seleccionar la fila y hacer clic en <strong>“Select Client”</strong></p></li>
+<li><p>Al seleccionar un cliente, los paneles de tareas y reuniones se cargan automáticamente con sus datos</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="panel-de-tareas">
+<h2>3. Panel de Tareas<a class="headerlink" href="#panel-de-tareas" title="Link to this heading"></a></h2>
+<section id="agregar-tarea">
+<h3>3.1 Agregar tarea<a class="headerlink" href="#agregar-tarea" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Tener un cliente seleccionado</p></li>
+<li><p>Completar los campos:</p>
+<ul class="simple">
+<li><p><strong>Task</strong> (obligatorio — descripción de la tarea)</p></li>
+<li><p><strong>Status</strong> (seleccionar: Pending, In Progress, Completed)</p></li>
+<li><p><strong>Start</strong> (fecha de inicio)</p></li>
+<li><p><strong>Deadline</strong> (fecha límite)</p></li>
+</ul>
+</li>
+<li><p>Hacer clic en <strong>“New Task”</strong></p></li>
+<li><p>Las fechas no se validan si el estado es “Completed”</p></li>
+</ol>
+</section>
+<section id="editar-tarea">
+<h3>3.2 Editar tarea<a class="headerlink" href="#editar-tarea" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Hacer doble clic en una tarea de la tabla (o seleccionarla y modificar los campos manualmente)</p></li>
+<li><p>Los datos de la tarea se copian al formulario</p></li>
+<li><p>Modificar los campos necesarios</p></li>
+<li><p>Hacer clic en <strong>“Edit”</strong></p></li>
+</ol>
+</section>
+<section id="eliminar-tarea">
+<h3>3.3 Eliminar tarea<a class="headerlink" href="#eliminar-tarea" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Seleccionar una tarea en la tabla (hacer clic en la fila)</p></li>
+<li><p>Hacer clic en <strong>“Delete”</strong></p></li>
+<li><p>Confirmar la eliminación</p></li>
+</ol>
+</section>
+</section>
+<hr class="docutils" />
+<section id="panel-de-reuniones">
+<h2>4. Panel de Reuniones<a class="headerlink" href="#panel-de-reuniones" title="Link to this heading"></a></h2>
+<section id="agregar-reunion">
+<h3>4.1 Agregar reunión<a class="headerlink" href="#agregar-reunion" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Tener un cliente seleccionado</p></li>
+<li><p>Completar los campos:</p>
+<ul class="simple">
+<li><p><strong>Meeting</strong> (obligatorio — descripción)</p></li>
+<li><p><strong>Date</strong> (fecha de la reunión)</p></li>
+<li><p><strong>Payment</strong> (estado de pago)</p></li>
+<li><p><strong>Date Pay</strong> (fecha de pago — solo si el estado es “Paid”)</p></li>
+<li><p><strong>Total</strong> (monto total)</p></li>
+<li><p><strong>Paid</strong> (monto pagado)</p></li>
+<li><p><strong>Method</strong> (método de pago)</p></li>
+</ul>
+</li>
+<li><p>Hacer clic en <strong>“New Meeting”</strong></p></li>
+</ol>
+<p><strong>Reglas de validación:</strong></p>
+<ul class="simple">
+<li><p>Si el estado es <strong>“Paid”</strong>: Date Pay es obligatoria y no puede ser futura; si Paid está vacío se iguala a Total</p></li>
+<li><p>Si el estado es <strong>distinto de “Paid”</strong>: Date Pay no debe ingresarse</p></li>
+<li><p>Paid no puede ser mayor que Total</p></li>
+</ul>
+</section>
+<section id="editar-reunion">
+<h3>4.2 Editar reunión<a class="headerlink" href="#editar-reunion" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Hacer doble clic en una reunión de la tabla</p></li>
+<li><p>Los datos se copian al formulario</p></li>
+<li><p>Modificar los campos necesarios</p></li>
+<li><p>Hacer clic en <strong>“Edit”</strong></p></li>
+</ol>
+</section>
+<section id="eliminar-reunion">
+<h3>4.3 Eliminar reunión<a class="headerlink" href="#eliminar-reunion" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Seleccionar una reunión en la tabla</p></li>
+<li><p>Hacer clic en <strong>“Delete”</strong></p></li>
+<li><p>Confirmar la eliminación</p></li>
+</ol>
+</section>
+<section id="colores-segun-estado-de-pago">
+<h3>4.4 Colores según estado de pago<a class="headerlink" href="#colores-segun-estado-de-pago" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Estado</p></th>
+<th class="head"><p>Color</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Paid</p></td>
+<td><p>Verde claro</p></td>
+</tr>
+<tr class="row-odd"><td><p>Unpaid</p></td>
+<td><p>Rojo claro</p></td>
+</tr>
+<tr class="row-even"><td><p>Pending</p></td>
+<td><p>Amarillo claro</p></td>
+</tr>
+<tr class="row-odd"><td><p>Overdue</p></td>
+<td><p>Rojo intenso</p></td>
+</tr>
+<tr class="row-even"><td><p>Partially Paid</p></td>
+<td><p>Naranja claro</p></td>
+</tr>
+<tr class="row-odd"><td><p>Refunded</p></td>
+<td><p>Azul claro</p></td>
+</tr>
+<tr class="row-even"><td><p>Cancelled</p></td>
+<td><p>Gris claro</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<hr class="docutils" />
+<section id="calendario-emergente">
+<h2>5. Calendario emergente<a class="headerlink" href="#calendario-emergente" title="Link to this heading"></a></h2>
+<p>Los campos de fecha tienen un botón <strong>📅</strong> a su derecha.</p>
+<ol class="arabic simple">
+<li><p>Hacer clic en <strong>📅</strong></p></li>
+<li><p>Navegar entre meses con las flechas <strong>◀</strong> y <strong>▶</strong></p></li>
+<li><p>Hacer clic en el día deseado</p></li>
+<li><p>Presionar <strong>“Aceptar”</strong> para insertar la fecha o <strong>“Cancelar”</strong> para cerrar</p></li>
+</ol>
+<p>Formato de fecha: <code class="docutils literal notranslate"><span class="pre">DD/MM/YYYY</span></code> (también acepta <code class="docutils literal notranslate"><span class="pre">YYYY-MM-DD</span></code>)</p>
+</section>
+<hr class="docutils" />
+<section id="ordenamiento-de-tablas">
+<h2>6. Ordenamiento de tablas<a class="headerlink" href="#ordenamiento-de-tablas" title="Link to this heading"></a></h2>
+<p>Hacer clic en el encabezado de cualquier columna para ordenar:</p>
+<ul class="simple">
+<li><p><strong>Primer clic:</strong> orden ascendente (▲)</p></li>
+<li><p><strong>Segundo clic:</strong> orden descendente (▼)</p></li>
+<li><p><strong>Tercer clic:</strong> vuelve a ascendente</p></li>
+</ul>
+<p>Las tablas de clientes y tareas tienen formato zebra (filas alternadas).</p>
+</section>
+<hr class="docutils" />
+<section id="tooltips">
+<h2>7. Tooltips<a class="headerlink" href="#tooltips" title="Link to this heading"></a></h2>
+<p>Al pasar el cursor sobre celdas con texto largo (Email, Company, Task, Meeting, etc.), aparece un globo emergente con el contenido completo.</p>
+</section>
+<hr class="docutils" />
+<section id="solucion-de-problemas">
+<h2>8. Solución de problemas<a class="headerlink" href="#solucion-de-problemas" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Problema</p></th>
+<th class="head"><p>Causa posible</p></th>
+<th class="head"><p>Solución</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>La app no abre</p></td>
+<td><p>Falta CustomTkinter</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">customtkinter</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Error de base de datos</p></td>
+<td><p>Permisos en carpeta data</p></td>
+<td><p>Verificar que la carpeta <code class="docutils literal notranslate"><span class="pre">data/</span></code> tenga permisos de escritura</p></td>
+</tr>
+<tr class="row-even"><td><p>La ventana se ve cortada</p></td>
+<td><p>DPI scaling en Windows</p></td>
+<td><p>La app ajusta automáticamente el DPI al iniciar</p></td>
+</tr>
+<tr class="row-odd"><td><p>No se ven las tablas</p></td>
+<td><p>Cliente no seleccionado</p></td>
+<td><p>Seleccionar un cliente en el panel superior</p></td>
+</tr>
+<tr class="row-even"><td><p>Fechas no se guardan</p></td>
+<td><p>Formato incorrecto</p></td>
+<td><p>Usar DD/MM/AAAA o seleccionar con el calendario</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<p><em>Documentación generada para el proyecto final de la Diplomatura en Python — UTN</em></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Bienvenido a Task &amp; Client Manager" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="api.html" class="btn btn-neutral float-right" title="Referencia de la API" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

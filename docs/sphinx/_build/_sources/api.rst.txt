@@ -1,0 +1,65 @@
+Referencia de la API
+=====================
+
+A continuación se documentan todos los módulos, clases y funciones
+del proyecto.
+
+Módulo principal
+----------------
+
+.. automodule:: main
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Controladores
+-------------
+
+.. automodule:: controllers.controller
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Modelo
+------
+
+.. automodule:: model.model
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: model.database
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: model.validators
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Vista
+-----
+
+.. automodule:: view.view
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: view.styles
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: view.widgets
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Configuración
+-------------
+
+.. automodule:: utils.config
+   :members:
+   :undoc-members:
+   :show-inheritance:

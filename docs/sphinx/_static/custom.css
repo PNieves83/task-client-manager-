@@ -1,0 +1,63 @@
+/* Paleta de la app: eucalyptus #98AA9D, mist #B3C9D6, moss #697C70, soot #2D3536 */
+
+.wy-side-nav-search {
+    background-color: #98AA9D;
+}
+
+.wy-nav-side {
+    background-color: #2D3536;
+}
+
+.wy-side-nav-search > div.version {
+    color: #FFFFFF;
+}
+
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+    color: #B3C9D6;
+}
+
+.wy-menu-vertical a {
+    color: #FFFFFF;
+}
+
+.wy-menu-vertical a:hover {
+    background-color: #697C70;
+}
+
+.wy-nav-content a {
+    color: #697C70;
+}
+
+.wy-nav-content a:hover {
+    color: #2D3536;
+}
+
+.wy-nav-top {
+    background-color: #98AA9D;
+}
+
+.rst-content code.literal {
+    color: #2D3536 !important;
+}
+
+.rst-content dl:not(.docutils) dt {
+    color: #2D3536;
+    background: #E8F0EC;
+    border-top: solid 3px #98AA9D;
+}
+
+.rst-content .viewcode-link {
+    color: #697C70;
+}
+
+h1, h2, h3, h4 {
+    color: #2D3536 !important;
+}
+
+table.docutils {
+    border-color: #B3C9D6;
+}
+
+table.docutils td, table.docutils th {
+    border-color: #B3C9D6;
+}

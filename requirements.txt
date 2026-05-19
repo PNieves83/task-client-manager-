@@ -1,0 +1,6 @@
+customtkinter>=5.2.0
+pytest>=8.0.0
+sphinx
+sphinx_rtd_theme
+myst-parser
+sphinxcontrib-mermaid
